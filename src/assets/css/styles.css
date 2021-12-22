@@ -1,0 +1,262 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@100;300;400&display=swap');
+
+body{
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.Reg{
+    margin:70px auto 0 auto;
+    width: 500px;
+}
+.mytodo{
+    padding-top: 60px;
+}
+.mytodo .d-flex .featchData {
+    margin-left: 25px;
+        width: 100%;
+        padding: 15px;
+        background: #fbfbfb;
+        margin-bottom: 15px;
+}
+.remove {
+    position: absolute;
+    right: 20px;
+}
+.remove a {
+    background: #ededed;
+    width: 27px;
+    height: 27px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 30px;
+    text-decoration: none;
+    color: red;
+}
+.product .btn {
+    background: #f3be3d;
+    color: #000;
+    padding: 7px 27px;
+    height: auto;
+    line-height: initial;
+    border-radius: 28px;
+    margin-top: 14px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    border: 1px solid #fff;
+}
+.product a.btn:hover{
+ border: 1px solid #f3be3d;
+ background: #fff;
+}
+.cart_sec{
+    text-decoration: none;
+    color: #333;
+}
+.product.text-center {
+    overflow: hidden;
+    margin-bottom: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding: 15px;
+}
+.prod-img {
+    margin: 0 auto;
+    width: 200px;
+    overflow: hidden;
+    max-height: 220px;
+    margin-bottom: 20px;
+}
+
+.form_signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    /* margin: auto; */
+}
+.gocart{
+    color: #333;
+    text-decoration: none;
+}
+
+.gocart:hover,.gocart:hover .text-muted{
+    color:#f3be3d !important;
+    text-decoration: none;
+}
+.gocart h4{
+    font-size: 18px;
+}
+.gocart h3{
+    font-size: 16px;
+}
+/* --------- */
+
+
+.product2 {
+    background-color: #eee
+}
+
+.brand {
+    font-size: 13px
+}
+
+.act-price {
+    color: red;
+    font-weight: 700
+}
+
+.dis-price {
+    text-decoration: line-through
+}
+
+.about {
+    font-size: 14px
+}
+
+.color {
+    margin-bottom: 10px
+}
+
+label.radio {
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 2px 9px;
+    border: 1px solid #f3be3d;
+    display: inline-block;
+    color: #f3be3d;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: #f9f8ef;
+}
+
+label.radio input:checked+span {
+    border-color: #f3be3d;
+    background-color: #f3be3d;
+    color: #fff
+}
+
+.btn-danger {
+    background-color: #f3be3d !important;
+    border-color: #f3be3d !important
+}
+
+.btn-danger:hover {
+    background-color: #f3be3d !important;
+    border-color: #f3be3d !important
+}
+
+.d-flex.mt-4{
+ align-items: center;
+}
+.pos {
+    position: fixed;
+    top: 50%;
+    left:50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.table tbody td.item img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.paddingS{
+    padding: 15px;
+}
+.form_signin .card, .Reg .card {
+    padding: 20px;
+    box-shadow: 0 2px 7px #e9e9e9;
+}
+.block {
+    margin-bottom: 15px;    
+}
+.m-top{
+    margin-top: 30px;
+}
+.form_signin.log{
+    margin: auto;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: #3eb9adcc !important;
+}
+.navbar-light .navbar-nav .nav-link,.navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+}
+button.btn{
+    background: #3eb9adcc !important;
+    color: #fff;
+    border-color: #3eb9adcc;
+}
+button.btn:hover{
+    border-color: #3eb9adcc;
+}
+nav li.nav-item.logout{
+    margin-left: auto;
+}
+.navbar-expand-lg .navbar-nav {
+    width: 100%;
+}
+.edit,.delete {
+    position: absolute;
+    right: 2px;
+    z-index: 1;
+    top:10px;
+    color: #3eb9adcc;
+}
+.edit a{
+    color: #3eb9adcc;
+}
+
+.edit {
+    right: 37px;
+}
+.block{
+    position: relative;
+}
+.block a {
+    text-decoration: none;
+    font-size: 14px;
+}
+.delete a {
+    /* background: #3eb9adcc;
+    color: #fff; */
+    padding: 5px 7px;
+    overflow: hidden;
+    display: block;
+    line-height: 12px;
+    color: #3eb9adcc;
+}
+.reg_data {
+    border: 1px solid #ced4da;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.reg_data h3 {
+    font-size:16px;
+}
+.reg_data h3 span{
+  margin-right: 5px;
+  font-weight: 600;
+}
+.btn:focus{box-shadow: none !important;}
+.btn:active{border:none !important;}
